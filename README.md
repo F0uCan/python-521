@@ -7,7 +7,7 @@ pip install
 ```
 
 ```bash
-READM.md
+README.md
 .gitinore
 .ven
 app.py

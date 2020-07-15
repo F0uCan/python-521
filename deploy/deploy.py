@@ -15,7 +15,6 @@ commands = [
     'sudo apt install python3-pip -y',
     'pip3 install -r python-521/requirements.txt',
     'pythoh3 python-521/dashboard/app.py &'
-
 ]
 
 for c in commands:
