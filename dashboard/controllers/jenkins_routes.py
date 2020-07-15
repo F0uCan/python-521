@@ -63,7 +63,6 @@ def jenkins_action():
         'route':'jenkins',
         'jobs': get_jobs()
     }
-    print(context)
     return flask.render_template('jenkins.html', context=context)
 
 @blueprint.route('/jenkins/<jobname>/run', methods=[ 'GET', 'POST' ])
@@ -80,6 +79,7 @@ def jenkins_run_action(jobname):
 def jenkins_edit_action(jobname):
 
     conn = get_jenkins_connection()
+    
     if flask.request.method == 'POST' and conn:
         try:
             conn.reconfig_job(

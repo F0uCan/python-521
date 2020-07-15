@@ -9,5 +9,4 @@ def login_required(function):
             return flask.redirect('/sign-in')
         else:
             return function(*args, **kwargs)
-    
     return wrapper

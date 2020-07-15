@@ -1192,3 +1192,384 @@ HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: 
 [15/07/2020 19:30:36] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
 [15/07/2020 19:30:36] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
 [15/07/2020 19:30:36] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[15/07/2020 19:30:58] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:30:58] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[15/07/2020 19:30:58] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[15/07/2020 19:30:58] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:30:58] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[15/07/2020 19:30:58] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[15/07/2020 19:31:36] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:31:36] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[15/07/2020 19:31:36] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[15/07/2020 19:31:37] [INFO] root [sign_in] [ldap.py | 59] Usuário e-mai	admin@admin.com não encontrado!
+[15/07/2020 19:32:03] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:32:03] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[15/07/2020 19:32:03] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[15/07/2020 19:32:17] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:32:17] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[15/07/2020 19:32:17] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[15/07/2020 19:43:12] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:43:12] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[15/07/2020 19:43:12] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[15/07/2020 19:43:13] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:43:13] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[15/07/2020 19:43:13] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[15/07/2020 19:44:08] [INFO] root [sign_in] [ldap.py | 89] Usuário e-mai	lucas.salles@4linux.com.br não encontrado!
+[15/07/2020 19:46:29] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:46:29] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[15/07/2020 19:46:29] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[15/07/2020 19:46:37] [INFO] root [sign_in] [ldap.py | 89] Usuário e-mai	lucas.salles@4linux.com.br não encontrado!
+[15/07/2020 19:47:10] [INFO] root [sign_in] [ldap.py | 89] Usuário e-mai	lucas.salles@4linux.com.br não encontrado!
+[15/07/2020 19:47:29] [INFO] root [sign_in] [ldap.py | 89] Usuário e-mai	lucas.salles@4linux.com.br não encontrado!
+[15/07/2020 19:47:43] [INFO] root [sign_in] [ldap.py | 94] Usuário e-mai
+lucas.salles@4linux.com.br autenticado com sucesso!
+[15/07/2020 19:47:43] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/lucas/.docker/config.json', '/home/lucas/.dockercfg']
+[15/07/2020 19:47:43] [DEBUG] docker.utils.config [find_config_file] [config.py | 25] Found file at path: /home/lucas/.docker/config.json
+[15/07/2020 19:47:43] [DEBUG] docker.auth [load_config] [auth.py | 182] Found 'auths' section
+[15/07/2020 19:47:43] [DEBUG] docker.auth [parse_auth] [auth.py | 142] Found entry (registry='harbor.4linux.com.br', username='lucas.salles')
+[15/07/2020 19:47:43] [DEBUG] docker.auth [parse_auth] [auth.py | 142] Found entry (registry='https://index.docker.io/v1/', username='lucasricciardi')
+[15/07/2020 19:47:43] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[15/07/2020 19:47:43] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/c1ce46d2e39c55bf561d6344709b99f12034414b5c91dabcc1c572e5bcc30ff5/json HTTP/1.1" 200 None
+[15/07/2020 19:47:43] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/0f0fff62af12c8935216f0189d9491646498ed18f10e4bcf30fbdddcd1f37b6c/json HTTP/1.1" 200 None
+[15/07/2020 19:47:43] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/ca2014c3b855839855f84cba0db3a993d369d8bbc44361bd7ff434f0dd98036f/json HTTP/1.1" 200 None
+[15/07/2020 19:47:43] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/95a6cdcb26bd571f6494e8af3fd2258aaa929e31fb2c66b2655fe99a1ec7e599/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/32128bfcc16e821fd49a1d8582aacb92e489173cfe32d0d65c33493c77040e2f/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/a8da96448e7fe361547009e9a15f8ab127a6773e0262e9f9269bbd83711a1b53/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/4cdda91d1a623aa3d1a12479f6bd72250b447cef0f9d08143143b7dd4bd87ada/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/cd1128a3297d50aef12c1f641e982cc3e573d054b362aa5722141376a39eaf87/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/046b010e11ea26b429d318359229745966dff35e2778feb1d71cf5bd4095a301/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/6c3e34705bb3925fa528a6c1c56c8e4a20ef1420e9b1b34c4ca5585c5891ebf9/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/dbe9511522882e069e155810482c32473687c70001ba22a53780c85ab98c8cf3/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/c2c04303fa0a56e3fec5a6aabb9fcc8d76c4e67161a344015dc31ecb68240343/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/763961b350a75c139ee4c20c8a924e4d362f32c18d36628a8ba82cfc0c0a2f85/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/ccf19ec2a9b9e67f45f6ea67b68cd9d54abf40e89a1d929b44b7f21e2a2d135f/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/c53ae1f5cc6177cf724fe1f7264f00e9d9c9bad1754a2b9b3ac6c6e89597c188/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/27e2ee205a9d6dde3b6dc91f6013cddc04b5c9f7e16d97e2d00dd80d47c99380/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/75b9605077382ecddd2ca89714faa9f3dbcb82b0bb1b89d718068742300d929a/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/88d956646d3cd73cb3c42f6889c10f987d27f203d6f3536d2fff8efa5e97bdc4/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/32c51946b4c99dd52fdc4c7534c6e176f16873944221e2a2c670ff8c72b0019e/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/2e7f079d7ab8aa5be962a0190459275aa74cd28c423e20ee5255ed110d13fbfc/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/113baecf4a5657e17506ba0bf74efd995142f3cb559155126c2a949981bd9d1a/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/d3e6c0873f588a4774bc5a2fefa40319dca5c88c4a59335b96f06f528c53cc41/json HTTP/1.1" 200 None
+[15/07/2020 19:47:44] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/1e664c0db7eb94da7c92c8fe16400a7c620f03f287add923822dc20a4700ebe5/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/5dc8aa1cc436594c9b0461f706ff408ada14690e5df5b9292932178b517a9e08/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/a2b5bf1f12cc37639fe6d1be906b4ce76b211dd55bc22ea9b9c940e68ca78abe/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/7c2c9fb3b18f2d8454f2cc4072f6f26dbf01d02861b9e51b3fe7bd7024c784cb/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/7c2c9fb3b18f2d8454f2cc4072f6f26dbf01d02861b9e51b3fe7bd7024c784cb/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/16bb42869c083d86e39bf7d22614fa2c89aec74dd7ea81451fd5ccbb3814c993/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/16bb42869c083d86e39bf7d22614fa2c89aec74dd7ea81451fd5ccbb3814c993/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e55926b7c37760a8002c4fd597f1693c160fbd3fa70999d6a77b69a0ca355b3f/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e55926b7c37760a8002c4fd597f1693c160fbd3fa70999d6a77b69a0ca355b3f/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/760e2d534c2c8e59d7d310e185a91bb262d48c4736e5289635104fef0850b3c8/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/760e2d534c2c8e59d7d310e185a91bb262d48c4736e5289635104fef0850b3c8/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/dc0deb6495b36df46da71a81fe520aec6fa1b008f8c3d0387ace3a7dc79b0ea8/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/dc0deb6495b36df46da71a81fe520aec6fa1b008f8c3d0387ace3a7dc79b0ea8/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/c809d7def06c0c25b9a1d9fe4ee2d04dfcc8a2765a7068486ff386a59773e900/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/c809d7def06c0c25b9a1d9fe4ee2d04dfcc8a2765a7068486ff386a59773e900/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/cf2fac2cba4c10eff0823d7b1e99c6789a7eb4198475e73da478fc6012ea1f98/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/cf2fac2cba4c10eff0823d7b1e99c6789a7eb4198475e73da478fc6012ea1f98/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/ddb9497b15e51ab6a3d1e51c0f943f3aefd6d7e18bf3029b6754b86db9ce67d6/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/ddb9497b15e51ab6a3d1e51c0f943f3aefd6d7e18bf3029b6754b86db9ce67d6/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e00a21e210f9bb560913efa409ded5f7ed12601fda0adefdb9a73211f724b7e5/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e00a21e210f9bb560913efa409ded5f7ed12601fda0adefdb9a73211f724b7e5/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/79409afac9c7657692067cfe38364a34e59a570e17f8e4d1796ca200038d4522/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/79409afac9c7657692067cfe38364a34e59a570e17f8e4d1796ca200038d4522/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/deea130d3deb114a7bc8c58d9eacd8abd07cd8588b526a4f71a35f404d53d451/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/deea130d3deb114a7bc8c58d9eacd8abd07cd8588b526a4f71a35f404d53d451/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/02130930619dbd989cf9d8b939de5fd251c74de48fa5466aa2fbd5fcd861dc8b/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/02130930619dbd989cf9d8b939de5fd251c74de48fa5466aa2fbd5fcd861dc8b/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/f86451baf0c5189c7f1355d5648f2a8ab5b454e89c1b082d47429b2f5b0af193/json HTTP/1.1" 200 None
+[15/07/2020 19:47:45] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/f86451baf0c5189c7f1355d5648f2a8ab5b454e89c1b082d47429b2f5b0af193/json HTTP/1.1" 200 None
+[15/07/2020 19:48:45] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 221] Starting new HTTP connection (1): localhost:8080
+[15/07/2020 19:48:46] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:8080 "GET /crumbIssuer/api/json HTTP/1.1" 401 550
+[15/07/2020 19:48:46] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 28] Falha na conexão com o jenkins: 
+Error in request. Possibly authentication failed [401]: Unauthorized
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 401 Invalid password/token for user: admin</title>
+</head>
+<body><h2>HTTP ERROR 401 Invalid password/token for user: admin</h2>
+<table>
+<tr><th>URI:</th><td>/crumbIssuer/api/json</td></tr>
+<tr><th>STATUS:</th><td>401</td></tr>
+<tr><th>MESSAGE:</th><td>Invalid password/token for user: admin</td></tr>
+<tr><th>SERVLET:</th><td>Stapler</td></tr>
+</table>
+<hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.30.v20200611</a><hr/>
+
+</body>
+</html>
+
+[15/07/2020 19:48:48] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 221] Starting new HTTP connection (1): localhost:8001
+[15/07/2020 19:48:48] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:8001 "GET /api/v4/users/ HTTP/1.1" 401 30
+[15/07/2020 19:48:48] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 221] Starting new HTTP connection (1): localhost:8001
+[15/07/2020 19:48:48] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:8001 "GET /api/v4/users/ HTTP/1.1" 401 30
+[15/07/2020 19:48:48] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 221] Starting new HTTP connection (1): localhost:8001
+[15/07/2020 19:48:48] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:8001 "GET /api/v4/projects/ HTTP/1.1" 401 30
+[15/07/2020 19:48:49] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 221] Starting new HTTP connection (1): localhost:8080
+[15/07/2020 19:48:49] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:8080 "GET /crumbIssuer/api/json HTTP/1.1" 401 550
+[15/07/2020 19:48:49] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 28] Falha na conexão com o jenkins: 
+Error in request. Possibly authentication failed [401]: Unauthorized
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 401 Invalid password/token for user: admin</title>
+</head>
+<body><h2>HTTP ERROR 401 Invalid password/token for user: admin</h2>
+<table>
+<tr><th>URI:</th><td>/crumbIssuer/api/json</td></tr>
+<tr><th>STATUS:</th><td>401</td></tr>
+<tr><th>MESSAGE:</th><td>Invalid password/token for user: admin</td></tr>
+<tr><th>SERVLET:</th><td>Stapler</td></tr>
+</table>
+<hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.30.v20200611</a><hr/>
+
+</body>
+</html>
+
+[15/07/2020 19:48:57] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 221] Starting new HTTP connection (1): localhost:8001
+[15/07/2020 19:48:57] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:8001 "GET /api/v4/users/ HTTP/1.1" 401 30
+[15/07/2020 19:48:57] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 221] Starting new HTTP connection (1): localhost:8001
+[15/07/2020 19:48:57] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:8001 "GET /api/v4/users/ HTTP/1.1" 401 30
+[15/07/2020 19:48:57] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 221] Starting new HTTP connection (1): localhost:8001
+[15/07/2020 19:48:57] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:8001 "GET /api/v4/projects/ HTTP/1.1" 401 30
+[15/07/2020 19:49:07] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/lucas/.docker/config.json', '/home/lucas/.dockercfg']
+[15/07/2020 19:49:07] [DEBUG] docker.utils.config [find_config_file] [config.py | 25] Found file at path: /home/lucas/.docker/config.json
+[15/07/2020 19:49:07] [DEBUG] docker.auth [load_config] [auth.py | 182] Found 'auths' section
+[15/07/2020 19:49:07] [DEBUG] docker.auth [parse_auth] [auth.py | 142] Found entry (registry='harbor.4linux.com.br', username='lucas.salles')
+[15/07/2020 19:49:07] [DEBUG] docker.auth [parse_auth] [auth.py | 142] Found entry (registry='https://index.docker.io/v1/', username='lucasricciardi')
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/c1ce46d2e39c55bf561d6344709b99f12034414b5c91dabcc1c572e5bcc30ff5/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/0f0fff62af12c8935216f0189d9491646498ed18f10e4bcf30fbdddcd1f37b6c/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/ca2014c3b855839855f84cba0db3a993d369d8bbc44361bd7ff434f0dd98036f/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/95a6cdcb26bd571f6494e8af3fd2258aaa929e31fb2c66b2655fe99a1ec7e599/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/32128bfcc16e821fd49a1d8582aacb92e489173cfe32d0d65c33493c77040e2f/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/a8da96448e7fe361547009e9a15f8ab127a6773e0262e9f9269bbd83711a1b53/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/4cdda91d1a623aa3d1a12479f6bd72250b447cef0f9d08143143b7dd4bd87ada/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/cd1128a3297d50aef12c1f641e982cc3e573d054b362aa5722141376a39eaf87/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/046b010e11ea26b429d318359229745966dff35e2778feb1d71cf5bd4095a301/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/6c3e34705bb3925fa528a6c1c56c8e4a20ef1420e9b1b34c4ca5585c5891ebf9/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/dbe9511522882e069e155810482c32473687c70001ba22a53780c85ab98c8cf3/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/c2c04303fa0a56e3fec5a6aabb9fcc8d76c4e67161a344015dc31ecb68240343/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/763961b350a75c139ee4c20c8a924e4d362f32c18d36628a8ba82cfc0c0a2f85/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/ccf19ec2a9b9e67f45f6ea67b68cd9d54abf40e89a1d929b44b7f21e2a2d135f/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/c53ae1f5cc6177cf724fe1f7264f00e9d9c9bad1754a2b9b3ac6c6e89597c188/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/27e2ee205a9d6dde3b6dc91f6013cddc04b5c9f7e16d97e2d00dd80d47c99380/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/75b9605077382ecddd2ca89714faa9f3dbcb82b0bb1b89d718068742300d929a/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/88d956646d3cd73cb3c42f6889c10f987d27f203d6f3536d2fff8efa5e97bdc4/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/32c51946b4c99dd52fdc4c7534c6e176f16873944221e2a2c670ff8c72b0019e/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/2e7f079d7ab8aa5be962a0190459275aa74cd28c423e20ee5255ed110d13fbfc/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/113baecf4a5657e17506ba0bf74efd995142f3cb559155126c2a949981bd9d1a/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/d3e6c0873f588a4774bc5a2fefa40319dca5c88c4a59335b96f06f528c53cc41/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/1e664c0db7eb94da7c92c8fe16400a7c620f03f287add923822dc20a4700ebe5/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/5dc8aa1cc436594c9b0461f706ff408ada14690e5df5b9292932178b517a9e08/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/a2b5bf1f12cc37639fe6d1be906b4ce76b211dd55bc22ea9b9c940e68ca78abe/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/7c2c9fb3b18f2d8454f2cc4072f6f26dbf01d02861b9e51b3fe7bd7024c784cb/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/7c2c9fb3b18f2d8454f2cc4072f6f26dbf01d02861b9e51b3fe7bd7024c784cb/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/16bb42869c083d86e39bf7d22614fa2c89aec74dd7ea81451fd5ccbb3814c993/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/16bb42869c083d86e39bf7d22614fa2c89aec74dd7ea81451fd5ccbb3814c993/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e55926b7c37760a8002c4fd597f1693c160fbd3fa70999d6a77b69a0ca355b3f/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e55926b7c37760a8002c4fd597f1693c160fbd3fa70999d6a77b69a0ca355b3f/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/760e2d534c2c8e59d7d310e185a91bb262d48c4736e5289635104fef0850b3c8/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/760e2d534c2c8e59d7d310e185a91bb262d48c4736e5289635104fef0850b3c8/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/dc0deb6495b36df46da71a81fe520aec6fa1b008f8c3d0387ace3a7dc79b0ea8/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/dc0deb6495b36df46da71a81fe520aec6fa1b008f8c3d0387ace3a7dc79b0ea8/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/c809d7def06c0c25b9a1d9fe4ee2d04dfcc8a2765a7068486ff386a59773e900/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/c809d7def06c0c25b9a1d9fe4ee2d04dfcc8a2765a7068486ff386a59773e900/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/cf2fac2cba4c10eff0823d7b1e99c6789a7eb4198475e73da478fc6012ea1f98/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/cf2fac2cba4c10eff0823d7b1e99c6789a7eb4198475e73da478fc6012ea1f98/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/ddb9497b15e51ab6a3d1e51c0f943f3aefd6d7e18bf3029b6754b86db9ce67d6/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/ddb9497b15e51ab6a3d1e51c0f943f3aefd6d7e18bf3029b6754b86db9ce67d6/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e00a21e210f9bb560913efa409ded5f7ed12601fda0adefdb9a73211f724b7e5/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e00a21e210f9bb560913efa409ded5f7ed12601fda0adefdb9a73211f724b7e5/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/79409afac9c7657692067cfe38364a34e59a570e17f8e4d1796ca200038d4522/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/79409afac9c7657692067cfe38364a34e59a570e17f8e4d1796ca200038d4522/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/deea130d3deb114a7bc8c58d9eacd8abd07cd8588b526a4f71a35f404d53d451/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/deea130d3deb114a7bc8c58d9eacd8abd07cd8588b526a4f71a35f404d53d451/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/02130930619dbd989cf9d8b939de5fd251c74de48fa5466aa2fbd5fcd861dc8b/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/02130930619dbd989cf9d8b939de5fd251c74de48fa5466aa2fbd5fcd861dc8b/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/f86451baf0c5189c7f1355d5648f2a8ab5b454e89c1b082d47429b2f5b0af193/json HTTP/1.1" 200 None
+[15/07/2020 19:49:07] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/f86451baf0c5189c7f1355d5648f2a8ab5b454e89c1b082d47429b2f5b0af193/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [INFO] root [sign_in] [ldap.py | 94] Usuário e-mai
+lucas.salles@4linux.com.br autenticado com sucesso!
+[15/07/2020 19:51:37] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/lucas/.docker/config.json', '/home/lucas/.dockercfg']
+[15/07/2020 19:51:37] [DEBUG] docker.utils.config [find_config_file] [config.py | 25] Found file at path: /home/lucas/.docker/config.json
+[15/07/2020 19:51:37] [DEBUG] docker.auth [load_config] [auth.py | 182] Found 'auths' section
+[15/07/2020 19:51:37] [DEBUG] docker.auth [parse_auth] [auth.py | 142] Found entry (registry='harbor.4linux.com.br', username='lucas.salles')
+[15/07/2020 19:51:37] [DEBUG] docker.auth [parse_auth] [auth.py | 142] Found entry (registry='https://index.docker.io/v1/', username='lucasricciardi')
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/c1ce46d2e39c55bf561d6344709b99f12034414b5c91dabcc1c572e5bcc30ff5/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/0f0fff62af12c8935216f0189d9491646498ed18f10e4bcf30fbdddcd1f37b6c/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/ca2014c3b855839855f84cba0db3a993d369d8bbc44361bd7ff434f0dd98036f/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/95a6cdcb26bd571f6494e8af3fd2258aaa929e31fb2c66b2655fe99a1ec7e599/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/32128bfcc16e821fd49a1d8582aacb92e489173cfe32d0d65c33493c77040e2f/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/a8da96448e7fe361547009e9a15f8ab127a6773e0262e9f9269bbd83711a1b53/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/4cdda91d1a623aa3d1a12479f6bd72250b447cef0f9d08143143b7dd4bd87ada/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/cd1128a3297d50aef12c1f641e982cc3e573d054b362aa5722141376a39eaf87/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/046b010e11ea26b429d318359229745966dff35e2778feb1d71cf5bd4095a301/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/6c3e34705bb3925fa528a6c1c56c8e4a20ef1420e9b1b34c4ca5585c5891ebf9/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/dbe9511522882e069e155810482c32473687c70001ba22a53780c85ab98c8cf3/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/c2c04303fa0a56e3fec5a6aabb9fcc8d76c4e67161a344015dc31ecb68240343/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/763961b350a75c139ee4c20c8a924e4d362f32c18d36628a8ba82cfc0c0a2f85/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/ccf19ec2a9b9e67f45f6ea67b68cd9d54abf40e89a1d929b44b7f21e2a2d135f/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/c53ae1f5cc6177cf724fe1f7264f00e9d9c9bad1754a2b9b3ac6c6e89597c188/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/27e2ee205a9d6dde3b6dc91f6013cddc04b5c9f7e16d97e2d00dd80d47c99380/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/75b9605077382ecddd2ca89714faa9f3dbcb82b0bb1b89d718068742300d929a/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/88d956646d3cd73cb3c42f6889c10f987d27f203d6f3536d2fff8efa5e97bdc4/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/32c51946b4c99dd52fdc4c7534c6e176f16873944221e2a2c670ff8c72b0019e/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/2e7f079d7ab8aa5be962a0190459275aa74cd28c423e20ee5255ed110d13fbfc/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/113baecf4a5657e17506ba0bf74efd995142f3cb559155126c2a949981bd9d1a/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/d3e6c0873f588a4774bc5a2fefa40319dca5c88c4a59335b96f06f528c53cc41/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/1e664c0db7eb94da7c92c8fe16400a7c620f03f287add923822dc20a4700ebe5/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/5dc8aa1cc436594c9b0461f706ff408ada14690e5df5b9292932178b517a9e08/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/containers/a2b5bf1f12cc37639fe6d1be906b4ce76b211dd55bc22ea9b9c940e68ca78abe/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/7c2c9fb3b18f2d8454f2cc4072f6f26dbf01d02861b9e51b3fe7bd7024c784cb/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/7c2c9fb3b18f2d8454f2cc4072f6f26dbf01d02861b9e51b3fe7bd7024c784cb/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/16bb42869c083d86e39bf7d22614fa2c89aec74dd7ea81451fd5ccbb3814c993/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/16bb42869c083d86e39bf7d22614fa2c89aec74dd7ea81451fd5ccbb3814c993/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e55926b7c37760a8002c4fd597f1693c160fbd3fa70999d6a77b69a0ca355b3f/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e55926b7c37760a8002c4fd597f1693c160fbd3fa70999d6a77b69a0ca355b3f/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/760e2d534c2c8e59d7d310e185a91bb262d48c4736e5289635104fef0850b3c8/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/760e2d534c2c8e59d7d310e185a91bb262d48c4736e5289635104fef0850b3c8/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/dc0deb6495b36df46da71a81fe520aec6fa1b008f8c3d0387ace3a7dc79b0ea8/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/dc0deb6495b36df46da71a81fe520aec6fa1b008f8c3d0387ace3a7dc79b0ea8/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/c809d7def06c0c25b9a1d9fe4ee2d04dfcc8a2765a7068486ff386a59773e900/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/c809d7def06c0c25b9a1d9fe4ee2d04dfcc8a2765a7068486ff386a59773e900/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/cf2fac2cba4c10eff0823d7b1e99c6789a7eb4198475e73da478fc6012ea1f98/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/cf2fac2cba4c10eff0823d7b1e99c6789a7eb4198475e73da478fc6012ea1f98/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/a5fef19f5a86da2b4dab286afc4ddcc1484068d8f2cff920860bc698e8513e62/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/ddb9497b15e51ab6a3d1e51c0f943f3aefd6d7e18bf3029b6754b86db9ce67d6/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/ddb9497b15e51ab6a3d1e51c0f943f3aefd6d7e18bf3029b6754b86db9ce67d6/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:51:37] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/b500168be26089f8a70cc693d592d30da8928b9e309f179262e050c8b0b60e1d/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e4c7f022539174ff1ebc0b20602ce2c7a519debd1a1fb5aeee967fc61a7e48d2/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e00a21e210f9bb560913efa409ded5f7ed12601fda0adefdb9a73211f724b7e5/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/e00a21e210f9bb560913efa409ded5f7ed12601fda0adefdb9a73211f724b7e5/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/79409afac9c7657692067cfe38364a34e59a570e17f8e4d1796ca200038d4522/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/79409afac9c7657692067cfe38364a34e59a570e17f8e4d1796ca200038d4522/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/deea130d3deb114a7bc8c58d9eacd8abd07cd8588b526a4f71a35f404d53d451/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/deea130d3deb114a7bc8c58d9eacd8abd07cd8588b526a4f71a35f404d53d451/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/3f3daf8637573f4568ba35ee0f818aa25384f547b6e9cfa0c9bf39b92d5a63da/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/02130930619dbd989cf9d8b939de5fd251c74de48fa5466aa2fbd5fcd861dc8b/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/02130930619dbd989cf9d8b939de5fd251c74de48fa5466aa2fbd5fcd861dc8b/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/f86451baf0c5189c7f1355d5648f2a8ab5b454e89c1b082d47429b2f5b0af193/json HTTP/1.1" 200 None
+[15/07/2020 19:51:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:None "GET /v1.35/images/f86451baf0c5189c7f1355d5648f2a8ab5b454e89c1b082d47429b2f5b0af193/json HTTP/1.1" 200 None
+[15/07/2020 19:51:40] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 221] Starting new HTTP connection (1): localhost:8080
+[15/07/2020 19:51:40] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 428] http://localhost:8080 "GET /crumbIssuer/api/json HTTP/1.1" 401 550
+[15/07/2020 19:51:40] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 28] Falha na conexão com o jenkins: 
+Error in request. Possibly authentication failed [401]: Unauthorized
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 401 Invalid password/token for user: admin</title>
+</head>
+<body><h2>HTTP ERROR 401 Invalid password/token for user: admin</h2>
+<table>
+<tr><th>URI:</th><td>/crumbIssuer/api/json</td></tr>
+<tr><th>STATUS:</th><td>401</td></tr>
+<tr><th>MESSAGE:</th><td>Invalid password/token for user: admin</td></tr>
+<tr><th>SERVLET:</th><td>Stapler</td></tr>
+</table>
+<hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.30.v20200611</a><hr/>
+
+</body>
+</html>
+
+[15/07/2020 19:57:55] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:57:55] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[15/07/2020 19:57:55] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[15/07/2020 19:58:47] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:58:47] [INFO] root [<module>] [app.py | 25] Configurando a aplicação ...
+[15/07/2020 19:58:47] [INFO] root [<module>] [app.py | 42] Iniciando a aplicação ...
+[15/07/2020 19:59:32] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:59:32] [INFO] root [<module>] [app.py | 25] Configurando a aplicação ...
+[15/07/2020 19:59:32] [INFO] root [<module>] [app.py | 43] Iniciando a aplicação ...
+[15/07/2020 19:59:36] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 19:59:36] [INFO] root [<module>] [app.py | 25] Configurando a aplicação ...
+[15/07/2020 19:59:36] [INFO] root [<module>] [app.py | 42] Iniciando a aplicação ...
+[15/07/2020 20:03:10] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 20:03:10] [INFO] root [<module>] [app.py | 25] Configurando a aplicação ...
+[15/07/2020 20:03:10] [INFO] root [<module>] [app.py | 42] Iniciando a aplicação ...
+[15/07/2020 20:03:14] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 20:03:14] [INFO] root [<module>] [app.py | 25] Configurando a aplicação ...
+[15/07/2020 20:03:14] [INFO] root [<module>] [app.py | 42] Iniciando a aplicação ...
+[15/07/2020 20:03:39] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 20:03:39] [INFO] root [<module>] [app.py | 25] Configurando a aplicação ...
+[15/07/2020 20:03:39] [INFO] root [<module>] [app.py | 42] Iniciando a aplicação ...
+[15/07/2020 20:03:44] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 20:03:44] [INFO] root [<module>] [app.py | 25] Configurando a aplicação ...
+[15/07/2020 20:03:44] [INFO] root [<module>] [app.py | 42] Iniciando a aplicação ...
+[15/07/2020 20:03:47] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 20:03:47] [INFO] root [<module>] [app.py | 25] Configurando a aplicação ...
+[15/07/2020 20:03:47] [INFO] root [<module>] [app.py | 42] Iniciando a aplicação ...
+[15/07/2020 20:04:00] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[15/07/2020 20:04:00] [INFO] root [<module>] [app.py | 25] Configurando a aplicação ...
+[15/07/2020 20:04:00] [INFO] root [<module>] [app.py | 42] Iniciando a aplicação ...

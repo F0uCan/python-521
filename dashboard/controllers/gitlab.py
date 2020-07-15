@@ -51,7 +51,6 @@ def get_projects():
 @blueprint.route('/gitlab', methods=['GET'])
 @login_required
 def gitlab_action():
-    print(get_users())
     context = {
         'user':get_users(),
         'projects':get_projects()

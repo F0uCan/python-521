@@ -1,13 +1,25 @@
 {% extends 'index.html' %}
 
 {% block header %}
-<h5 class="card-title">Acesse</h5>
+<h5 class="card-title">Cadastre-se</h5>
 {% endblock %}
 
 {% block content %}
 <div class="container">
-  <div id="sign-in">
-    <form method="post" action="/sign-in">
+  <div id="sign-up">
+    <form method="POST" action="/sign-up">
+      <div class="form-group">
+        <label for="first_name">Nome</label>
+        <div class="input-group">
+          <input class="form-control" type="text" id="first_name" name="first_name" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="last_name">Sobrenome</label>
+        <div class="input-group">
+          <input class="form-control" type="text" id="last_name" name="last_name" required>
+        </div>
+      </div>
       <div class="form-group">
         <label for="email">Email</label>
         <div class="input-group">
@@ -26,7 +38,7 @@
       <button type="submit" class="btn  btn-primary"> Acessar </button>
     </form>
     <div style="text-align: right; margin-top: 1rem;">
-      <a href="/sign-up">Cadastre-se</a>
+      <a href="/sign-in">Acesse</a>
     </div>
   </div>
 </div>

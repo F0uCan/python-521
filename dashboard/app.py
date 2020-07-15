@@ -19,12 +19,15 @@ logging.basicConfig(
 
 #logging.info('Hello, World')
 logging.info('Carregando variáveis de ambiente ...')
+
 dotenv.load_dotenv()
 
 logging.info('Configurando a aplicação ...')
+
 app =  flask.Flask(__name__)
 
 app.secret_key = os.environ.get('SECRET_KEY') or 'secret'
+
 app.register_blueprint(docker)
 app.register_blueprint(gitlab)
 app.register_blueprint(jenkins)
@@ -36,6 +39,5 @@ def get_home():
 
 
 if __name__ == "__main__":
-
     logging.info('Iniciando a aplicação ...')
     app.run(host='0.0.0.0', port='5000')
