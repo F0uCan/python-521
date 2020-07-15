@@ -7,10 +7,10 @@ pip install
 ```
 
 ```bash
-README.md
-.gitinore
-.ven
-app.py
+> README.md
+> .gitinore
+> .env
+> app.py
 ```
 
 ## Criação e ativação do ambiente virtual
