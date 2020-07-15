@@ -3,6 +3,7 @@ import logging
 
 import flask
 import jenkins
+
 from services.authentication import login_required
 
 
